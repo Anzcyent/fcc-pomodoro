@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  background-color: #1e555c;
+  width: 100vw;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  opacity: 0.8;
+}
+
+i:active {
+  transform: scale(0.98);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 4rem;
+  background-color: #5c251e;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 2px 5px #5c251e;
+}
+
+.lengths {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: 25px;
+}
+
+.timer-utils {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.session {
+  border: 3px solid #5c251e;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #5c251e;
+  background-color: #5c251e;
+}
+
+.session h4 {
+  font-size: 25px;
+}
+
+.session span {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.app-utils i {
+  margin: 0 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .lengths {
+    font-size: 15px;
+  }
+
+  .session h4 {
+    font-size: 15px;
+  }
+
+  .session span {
+    font-size: 4rem;
+  }
+
+  .app-utils i {
+    margin: 0 20px;
+    font-size: 15px;
+  }
+}
